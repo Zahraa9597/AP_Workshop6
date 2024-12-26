@@ -1,9 +1,9 @@
 public abstract class Animal {
     private String name;
-    private String age;
+    private int age;
     private String uniqueCharacteristic;
 
-    public Animal(String name, String age, String uniqueCharacteristic) {
+    public Animal(String name, int age, String uniqueCharacteristic) {
         this.name = name;
         this.age = age;
         this.uniqueCharacteristic = uniqueCharacteristic;
@@ -13,7 +13,7 @@ public abstract class Animal {
 
         return name;
     }
-    public String getAge() {
+    public int getAge() {
 
         return age;
     }
